@@ -15,7 +15,7 @@ pipeline {
             steps{  
                 timeout(time:5, unit:"MINUTES"){   
                     script{ 
-                        tools.PrintMes("获取代码",'green')
+                        tools.PrintMes("获取代码",'red')
                     }
                 }
             }
