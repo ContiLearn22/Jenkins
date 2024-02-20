@@ -1,13 +1,13 @@
 #!groovy
 
-@Library('jenkinslib') _     
+@Library('Jenkins') _     
 
 def tools = new org.devops.tools()
 
 
 
 pipeline {
-    agent { node {  label "master" }}
+    agent { node {  label "build01" }}
 
     stages {
         //下载代码
