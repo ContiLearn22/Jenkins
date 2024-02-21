@@ -11,7 +11,7 @@ pipeline{
                    }
                 }
             }
-          }
+          
         stage("ANTbuild"){
             steps{
                 script{
@@ -20,4 +20,5 @@ pipeline{
                 }
             }
         }
+    }
 }                                                                                                 
