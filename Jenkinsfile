@@ -1,6 +1,6 @@
 #!groovy
 
-@library('Jenkins')_
+@Library('Jenkins')_
 
 def build = new org.devops.build()
 String buildType = "${env.build}"
