@@ -1,3 +1,10 @@
+#!groovy
+
+@library('Jenkins') _
+
+def build = new org.devops.build()
+
+
 pipeline{
     agent {  node{ label "build01"}}
 
