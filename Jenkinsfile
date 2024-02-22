@@ -3,7 +3,7 @@
 @library('Jenkins') _
 
 def build = new org.devops.build()
-
+String buildType = "${env.build}"
 
 pipeline{
     agent {  node{ label "build01"}}
